@@ -29,7 +29,7 @@ function App() {
       
       <div className="container">
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Protected isLoggedIn={isLoggedIn}><Profile /></Protected>} />
           <Route path="/about" element={<About />} />
         </Routes>
