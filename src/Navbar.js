@@ -1,9 +1,4 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-import  App  from "./App"
-import { useState } from "react";
-import { isLoggedIn, logIn, logOut } from './login'
-
-
 
 export default function Navbar() {
 
