@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import { Route, Routes } from "react-router-dom"
-import Home from "./home";
-import Profile from "./profile";
+import Home from "./pages/home";
+import Profile from "./pages/profile";
 import About from "./about";
 import Protected from "./protected";
 
@@ -29,9 +29,9 @@ function App() {
       
       <div className="container">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/profile" element={<Protected isLoggedIn={isLoggedIn}><Profile /></Protected>} />
-          <Route path="/about" element={<About />} />
+          <Route path="./pages/" element={<Home />} />
+          <Route path="./pages/profile" element={<Protected isLoggedIn={isLoggedIn}><Profile /></Protected>} />
+          <Route path="./pages/about" element={<About />} />
         </Routes>
         
       </div>

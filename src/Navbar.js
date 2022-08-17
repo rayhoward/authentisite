@@ -7,8 +7,8 @@ export default function Navbar() {
             Authentisite
         </Link>
         <ul>
-            <CustomLink to="/about">About</CustomLink>
-            <CustomLink to="/profile">Profile</CustomLink>
+            <CustomLink to="./pages/about">About</CustomLink>
+            <CustomLink to="./pages/profile">Profile</CustomLink>
             
         </ul>
     </nav>
