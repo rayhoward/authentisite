@@ -8,7 +8,7 @@ import { isLoggedIn, logIn, logOut } from './login'
 export default function Navbar() {
 
     return <nav className="nav">
-        <Link to="/home" className="site-title">
+        <Link to="/" className="site-title">
             Authentisite
         </Link>
         <ul>
