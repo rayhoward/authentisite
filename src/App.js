@@ -29,9 +29,9 @@ function App() {
       
       <div className="container">
         <Routes>
-          <Route path="./pages/" element={<Home />} />
-          <Route path="./pages/profile" element={<Protected isLoggedIn={isLoggedIn}><Profile /></Protected>} />
-          <Route path="./pages/about" element={<About />} />
+          <Route path="pages/" element={<Home />} />
+          <Route path="pages/profile" element={<Protected isLoggedIn={isLoggedIn}><Profile /></Protected>} />
+          <Route path="pages/about" element={<About />} />
         </Routes>
         
       </div>
